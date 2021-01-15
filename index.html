@@ -1,0 +1,111 @@
+<!-- Fonts Import -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,900&display=swap" rel="stylesheet">
+
+<main id="main">
+
+  <body id="body">
+    <div>
+      <!-- Title and description div. -->
+      <h1 id="title">CodePen.io Feedback Survey </h1>
+      <p id="description">Please give us your feedback about CodePen.io platform, thanks in advance!
+      </p>
+    </div>
+    <div id="form-box">
+      <!-- div used to handle the form background. -->
+      <form id="survey-form">
+        <div>
+          <label id="name-label">Name</label>
+          <input id="name" type="text" placeholder="Enter your name" required>
+        </div>
+        <div>
+          <label id="email-label">Email</label>
+          <input id="email" type="email" placeholder="Enter your email" required>
+        </div>
+        <div>
+          <label id="number-label">Age</label>
+          <input id="number" type="number" placeholder="Enter your age" min="18" max="105">
+        </div>
+        <div>
+          <label id="rol">Current role</label>
+          <select id="dropdown">
+            <option value="" disabled selected>Select a role</option>
+            <option value="qA Analyst">QA Analyst</option>
+            <option value="front-end Dev">Front-end Dev</option>
+            <option value="back-end Dev">Back-end Dev</option>
+            <option value="project Manager">Project Manager</option>
+            <option value="business Analyst">Business Analyst</option>
+            <option value="student">Student</option>
+            <option value="none of the above">None of the above</option>
+          </select>
+          </br>
+        </div>
+        <div>
+          <label id="recommend">Would you recommend CodePen.io to a friend?</>
+            <div><label>
+                <input name="recommed" type="radio" id="definitely" value="yes, definitely" />
+                Yes, definitely
+              </label>
+            </div>
+            <div>
+              <label>
+                <input name="recommed" type="radio" id="maybe" value="maybe" />
+                Maybe
+              </label>
+            </div>
+
+            <label>
+              <input name="recommed" type="radio" id="no" value="no" />
+              Probably not
+            </label>
+            </br>
+        </div>
+        <div>
+          <label id="favorite" accesskey="p">What is your favorite feature of CodePen.io?</label>
+          <select id="favorite-dropdown">
+            <option value="" disabled selected>Select a feature</option>
+            <option value="HTML,CSS and JS editor">HTML,CSS and JS editor</option>
+            <option value="Preview">Preview</option>
+            <option value="Editor themes">Editor themes</option>
+            <option value="Performance">Performance</option>
+            <option value="Pro features">Pro features</option>
+            <option value="Free version">Free version</option>
+          </select>
+          </br>
+        </div>
+        <div>
+          <label>
+            What would you like to see improved?
+          </label>
+          <label><input name="improve" value="front-end-projects" type="checkbox">Code editor</label>
+
+          <label><input name="improve" value="themes" type="checkbox">Themes</label>
+
+          <label><input name="improve" value="performance" type="checkbox">Performance</label>
+
+          <label><input name="improve" value="price" type="checkbox">Price</label>
+
+          <label><input name="improve" value="new features" type="checkbox">New features</label>
+
+          <label><input name="improve" value="full version free" type="checkbox">Full version free</label>
+          </br>
+        </div>
+        <div>
+          <label id="comments-label">Don't forget to add a comment or suggestion</label>
+          <textarea id="comments" type="text-area" placeholder="Please enter a comment"></textarea>
+          </br>
+        </div>
+        <div>
+          <button id="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</main>
