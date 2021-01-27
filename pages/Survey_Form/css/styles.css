@@ -1,0 +1,112 @@
+/* For the body an image was added, and a tint overlay also, the image will take the full size of the page*/
+
+body {
+    background-color: rgba(7, 21, 28, 0.9);
+    background-blend-mode: overlay;
+    background-image: url("https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 32px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+label {
+    display: block;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    padding: 3px;
+}
+
+form {
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 20px;
+    display: box;
+}
+
+
+/* Here added a box, also with a tint*/
+
+#form-box {
+    align-self: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 25px;
+    background-color: rgba(16, 50, 54, 0.65);
+}
+
+p {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline-block;
+    align-self: left;
+    margin-left: 0;
+    font-family: "Lato", sans-serif;
+    margin: 2px;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    display: block;
+    width: 90%;
+    align-self: center;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin-right: 0px;
+    font-family: "Lato", sans-serif;
+    margin: 2px;
+    font-size: 16px;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+select,
+button {
+    display: block;
+    width: 93%;
+    align-self: center;
+    padding-right: 2px;
+    padding-left: 2px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    margin: 2px;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+#description {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+
+button {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    background: #37af65;
+    color: white;
+    border: 0px;
+    border-radius: 15px;
+    padding: 4px;
+    width: 93%;
+}

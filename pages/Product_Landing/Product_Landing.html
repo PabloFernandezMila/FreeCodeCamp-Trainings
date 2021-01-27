@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;700&display=swap" rel="stylesheet">
+
+<main>
+
+    <body>
+        <header id="header">
+
+            <a id="header-img-brand-link" href="https://codepen.io/Aggroholic/full/wvzRRwj">
+                <img id="header-img" src="https://logosvector.net/wp-content/uploads/2013/06/volkswagen-eps-vector-logo-200x200.png" alt="original trombones logo">
+                <div id="brand-name">
+                    Volkswagen
+            </a>
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li class="nav">
+                        <a class="nav-link" href="#golf-gti">Golf GTI</a>
+                    </li>
+                    <li class="nav">
+                        <a class="nav-link" href="#test">Test drive</a>
+                    </li>
+                    <li class="nav">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+        <h1>
+            Welcome to your new Volkswagen
+        </h1>
+        <section id="golf-gti">
+            <h2>New GOLF GTI
+            </h2>
+            <h3>
+                The GTI’s secret of success is that its DNA has never changed. It still has a clean design, front-wheel drive, the most agile running gear, a powerful petrol engine, insignias like the red stripe in the radiator grille, and chequered seat covers. But
+                the Golf GTI also became an icon because Volkswagen continually reinvented it, all along combining tradition with innovation. And that’s also the case in 2020. Volkswagen has digitalised and networked the new Golf GTI, catapulting it into
+                the future with a multitude of intelligent assistance systems and a both powerful and stylish design.
+            </h3>
+            <div id="main-video-container">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/wEYAytYeOdQ"></iframe>
+            </div>
+
+        </section>
+
+        <section id="test">
+            <h2>Book a test drive
+            </h2>
+            <h3>Fill out the form with your personal information,select the closer dealer to you, and we will tailor the perfect test drive for you
+            </h3>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label id="name-label">Name</label>
+                <input id="name" type="text" placeholder="Enter your name" required>
+                <label id="email-label">Email</label>
+                <input id="email" type="email" name="email" placeholder="Enter your email" required>
+
+                <label id="dealer">Please select the dealers that suits you better</label>
+                <select id="dropdown" required>
+            <option value="" disabled selected hidden>Select your dealer</option>
+            <option value="downtown">Downtown</option>
+            <option value="west-side">West Side</option>
+            <option value="north-side">North Side</option>
+            <option value="east-side">East side</option>
+            <option value="south-side">South-side</option>
+          </select>
+
+                <label id="recommend">What is your preferred schedule?</label>
+                <label>
+            <input name="schedule" type="radio" id="morning" value="morning" required />
+            Morning
+          </label>
+
+                <label>
+            <input name="schedule" type="radio" id="afternoon" value="afternoon" />
+            Afternoon
+          </label>
+
+                <label>
+            <input name="schedule" type="radio" id="evening" value="evening" />
+            Evening
+          </label>
+                <input type="submit" id="submit"></input>
+            </form>
+        </section>
+        <section id="pricing">
+            <h2>Choose your version
+            </h2>
+            <h3>Learn more about our options and choose the one that best suits your needs.
+            </h3>
+            <div id="price-container">
+                <div id="col">
+                    <fieldset>
+                        <legend>Basic Version</legend>
+                        <ol>
+                            <li>Driving mode selection</li>
+                            <li>
+                                Limited-slip front VAQ differential lock</li>
+                            <li>Blind Spot Monitor and Front Assist</li>
+                        </ol>
+                        <h4 class="price-tag">Price</h4>
+                        <h5 class="price-value">$10.000</h5>
+                        <div id="select-button">
+                            <button>Select</button>
+                        </div>
+                    </fieldset>
+                </div>
+                <div id="col">
+
+                    <fieldset>
+                        <legend>Standard Version</legend>
+                        <ol>
+                            <li>LED headlights with Adaptive Front Lighting System (AFS)</li>
+                            <li>
+                                Panoramic sunroof</li>
+                            <li>Leather-trimmed seats</li>
+                        </ol>
+
+                        <h4 class="price-tag">Price</h4>
+                        <h5 class="price-value">$15.000</h5>
+                        <div id="select-button">
+                            <button>Select</button>
+                        </div>
+                    </fieldset>
+                </div>
+                <div id="col">
+                    <fieldset>
+                        <legend>Full Version</legend>
+                        <ol>
+                            <li>DCC® Dynamic Chassis Control</li>
+                            <li>Fender® Premium Audio System</li>
+                            <li>Tires for summers</li>
+                        </ol>
+                        <h4 class="price-tag">Price</h4>
+                        <h5 class="price-value">$20.000</h5>
+                        <div id="select-button">
+                            <button>Select</button>
+                        </div>
+
+                    </fieldset>
+                </div>
+        </section>
+        </div>
+        <footer>
+
+            <img id="footer-img" src="https://i.pinimg.com/originals/e1/b1/21/e1b1218f890f665852d08b1e75503bcf.jpg" alt="original trombones logo">
+            <div id="brand-name-footer">
+                Volkswagen
+            </div>
+            <div id="footer-text">
+                Copyright 2021, Pablo Fernandez
+            </div>
+        </footer>
+    </body>
+</main>
+
+</html>
