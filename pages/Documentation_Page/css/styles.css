@@ -1,0 +1,23 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: brown;
+    position: fixed;
+    margin-left: 0;
+    height: 100%;
+    width: 300px;
+}
+
+section {
+    margin-left: 350px;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        margin: auto;
+    }
+}
