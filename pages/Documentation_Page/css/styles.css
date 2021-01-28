@@ -4,16 +4,34 @@ html {
     padding: 0;
 }
 
-#navbar {
-    background-color: brown;
-    position: fixed;
-    margin-left: 0;
-    height: 100%;
-    width: 300px;
+header {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
 }
 
 section {
-    margin-left: 350px;
+    font-family: 'Cardo', serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#navbar {
+    position: fixed;
+    margin-left: 0;
+    height: 100%;
+    width: 275px;
+    font-family: 'Cardo', serif;
+    font-size: 16px;
+    font-weight: 400;
+    border-right: 1px solid black;
+}
+
+#navbar_list{
+    list-style: none;
+}
+
+section {
+    margin-left: 310px;
 }
 
 @media (max-width: 800px) {
