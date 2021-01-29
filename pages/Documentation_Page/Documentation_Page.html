@@ -120,8 +120,8 @@
                 To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
             </p>
             <div class="code_container">
-            <code>function greetMe(yourName) { alert("Hello " + yourName); }
-                greetMe("World");</code>
+            <code> <mark class="lightskyblue">function</mark> <mark class="green">greetMe</mark>(<mark class="orange">yourName</mark>) {  <mark class="lightskyblue">alert</mark>(<mark class="yellow">"Hello "</mark> <mark class="red">+</mark> yourName); }
+                <mark class="lightskyblue">greetMe</mark>(<mark class="yellow">"World"</mark>);</code>
             </div>
             <p>
                 Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
@@ -163,19 +163,10 @@
                 only within that function. JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within. For example the following
                 code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement.
             </p>
-            <code>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, accusamus?</code>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit dolorum quia accusamus quis totam! Laborum non et dolor id, doloremque doloribus perspiciatis tempore maxime, fugiat eligendi vitae eveniet vero animi.
-            </p>
-
-            <code>
-    if (true) { var x = 5; } console.log(x); // 5
-</code>
-
+            <code>if (true) { var x = 5; } console.log(x); // 5</code>
             <p>
                 This behavior changes, when using the let declaration introduced in ECMAScript 2015.
             </p>
-
             <code>
     if (true) { let y = 5; } console.log(y); // ReferenceError: y is not
 defined
@@ -371,7 +362,7 @@ CAUSE AN ERROR ALSO function f() { const g = 5; var g; //statements
             <header>Reference</header>
 
             <p>
-                All the documentation in this page is taken from MDN
+                All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">MDN</a>
             </p>
 
         </section>

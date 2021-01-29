@@ -81,19 +81,46 @@ section>header {
 #navbar>header {
     border-bottom: 4px double black;
     text-align: center;
+    <mark class="lightskyblue">
+
 
 }
 
 code {
     display: block;
     background-color: rgb(51, 51, 51);
-    color: rgb(182, 197, 99);
+    color: white;
     font-family: 'Source Code Pro', monospace;
     width: auto;
     font-size: 14px;
     padding: 20px;
     margin: 20px 10px 20px 0;
     border-radius: 15px;
+}
+
+.lightskyblue {
+    color: lightskyblue;
+    background: none;
+}
+
+.green {
+    color: rgb(32, 209, 56);
+    background: none;
+}
+
+.orange {
+    color: rgb(255, 136, 0);
+    background: none;
+}
+
+.yellow {
+    color: rgb(229, 255, 0);
+    background: none;
+}
+
+.red {
+    color: rgb(255, 0, 0);
+    background: none;
 }
 
 @media (max-width: 800px) {
