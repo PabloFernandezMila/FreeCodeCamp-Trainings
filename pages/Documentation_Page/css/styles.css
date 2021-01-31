@@ -40,7 +40,6 @@ li {
     width: 100%;
     height: 100%;
     padding: 0;
-
 }
 
 .nav {
@@ -81,9 +80,6 @@ section>header {
 #navbar>header {
     border-bottom: 4px double black;
     text-align: center;
-    <mark class="lightskyblue">
-
-
 }
 
 code {
@@ -123,8 +119,66 @@ code {
     background: none;
 }
 
+.violet {
+    color: rgb(217, 177, 255);
+    background: none;
+}
+
+.grey {
+    color: rgb(163, 163, 163);
+    background: none;
+}
+
 @media (max-width: 800px) {
     h1 {
         margin: auto;
+    }
+    #navbar_list {
+        list-style: none;
+        margin: 0;
+        width: auto;
+        padding: 0;
+        border-right: none;
+    }
+    #navbar {
+        text-align: center;
+        position: relative;
+        display: block;
+        margin: 0;
+        width: auto;
+        padding: 0;
+        font-family: 'Cardo', serif;
+        font-size: 16px;
+        font-weight: 400;
+        border-right: none;
+    }
+    .nav {
+        position: relative;
+        height: auto;
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        border-bottom: 1px solid black;
+        display: block;
+        text-align: center;
+    }
+    .nav-link {
+        position: absolute;
+        display: block;
+        color: rgb(32, 32, 36);
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        text-decoration: none;
+        position: static;
+        top: 0%;
+        left: 0%;
+        transform: translate(-0%, -0%);
+    }
+    section {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        padding: 0;
     }
 }
