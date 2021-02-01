@@ -134,11 +134,13 @@ code {
         margin: auto;
     }
     #navbar_list {
+        
         list-style: none;
-        margin: 0;
-        width: auto;
+        margin: auto;
+        width: 50%;
         padding: 0;
-        border-right: none;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
     }
     #navbar {
         text-align: center;
