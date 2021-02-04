@@ -1,0 +1,41 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0;
+    margin-bottom: 100px;
+    width: 100%;
+    background: red;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    height: 60px;
+   }
+
+   #logo {
+    display: inline-block;
+   }
+#navbar {
+position: absolute;
+right: 0;
+
+	
+}
+#nav-list{
+    list-style: none;
+    display: table;
+
+}   
+
+.navbar-link{
+    display: inline-block;
+    padding-right: 20px;
+   }
+
+
