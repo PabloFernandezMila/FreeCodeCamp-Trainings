@@ -1,4 +1,6 @@
-html, body {
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,600&family=Montserrat:wght@800&display=swap');
+html,
+body {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -11,31 +13,64 @@ header {
     top: 0;
     margin-bottom: 100px;
     width: 100%;
-    background: red;
     margin: 0;
     padding: 0;
     z-index: 1;
     height: 60px;
-   }
-
-   #logo {
-    display: inline-block;
-   }
-#navbar {
-position: absolute;
-right: 0;
-
-	
 }
-#nav-list{
+
+header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0%;
+    background-color: rgba(255, 255, 255, 0)!important;
+    filter: blur(10px);
+}
+
+#logo {
+    display: inline-block;
+}
+
+#navbar {
+    position: absolute;
+    right: 0;
+}
+
+#nav-list {
     list-style: none;
     display: table;
+}
 
-}   
-
-.navbar-link{
+.navbar-link {
     display: inline-block;
     padding-right: 20px;
-   }
+    color: white;
+}
 
+#welcome-section {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #1b1b1b;
+}
 
+#hi {
+    margin-top: 60px;
+    font-family: 'Lora', serif;
+    color: palevioletred;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: white;
+}
