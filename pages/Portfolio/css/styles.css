@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,600&family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Montserrat+Alternates:wght@400;700&display=swap');
+
+
 html,
 body {
     width: 100%;
@@ -27,13 +29,22 @@ header:before {
     right: 0;
     bottom: 0;
     padding: 0%;
-    background-color: rgba(255, 255, 255, 0)!important;
+    background-color: white;
     filter: blur(10px);
+    opacity: 10%;
+
 }
 
 #logo {
     display: inline-block;
-}
+    width: 50px;
+    height: auto;
+    margin-left: 20px;
+    z-index: 1;
+  
+    }
+
+
 
 #navbar {
     position: absolute;
@@ -48,7 +59,10 @@ header:before {
 .navbar-link {
     display: inline-block;
     padding-right: 20px;
+
     color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 
 #welcome-section {
@@ -60,17 +74,52 @@ header:before {
 }
 
 #hi {
-    margin-top: 60px;
     font-family: 'Lora', serif;
-    color: palevioletred;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 600;
+    color: tomato;
+    margin-left: 250px;
+    margin-top: 250px;
     font-size: 30px;
+    margin-bottom: 0px;
 }
 
-h1 {
-    font-family: 'Lora', serif;
-    font-family: 'Montserrat', sans-serif;
+
+
+#name {
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: 50px;
     color: white;
+    margin-left: 250px;
+    margin-top: 0px;
 }
+
+
+.lightskyblue {
+    color: lightskyblue;
+    background: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+}
+
+p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+}
+
+#intro{
+width: 50%;
+text-align: center;
+width: 50%;
+margin-left: 200px;
+}
+
+
+.tomato {
+    color: tomato;
+    background: none;
+}
+
+
