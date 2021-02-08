@@ -93,6 +93,7 @@ section {
 
 #name {
     font-size: 50px;
+    font-family: 'Zilla Slab', serif;
     color: white;
     margin-left: 25%;
     margin-top: 0px;
@@ -116,6 +117,7 @@ p {
 }
 
 #about {
+    display: inline-block;
     margin-top: 0;
     width: 50%;
     text-align: center;
@@ -155,35 +157,122 @@ p {
     padding-top: 20px;
 }
 
+#projects-section{
+    background-color: rgb(10, 10, 10);
+}
+
 #project-container {
     text-align: center;
     width: 100%;
-    margin: auto;
+    margin: 0;
+    
 }
 
 .project {
     display: inline-block;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-color: rgb(0, 195, 255);
+    border-style: solid;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 195, 255, 0.2);
+  
     padding: 16px;
-    background-color: #f1f1f1;
-    height: 450px;
-    width: 45%;
-    margin: auto;
+    background-color: rgb(20, 20, 20);
+    height: 600px;
+    width: 800px;
+    margin: 20px;
     padding: 0;
+    vertical-align: top;
 }
 
 .project-image-container {
-    overflow: hidden;
-    width: 90%;
-    margin: auto;
+   
+     width: 600px;
+     height: 337.5px;
+     overflow:hidden;
+     margin: auto;
+
+    
+
+
 }
 
 .project-image {
-    transition: 0.5s all ease-in-out;
-    width: 100%;
-    height: 100%;
+    background:url(../assets/chrome_mXEbIjRc5U.png);
+    background-size:cover;
+    width:100%;
+    height:100%;
+    transition: transform 2s;
 }
 
 .project-image:hover {
-    transform: scale(1.1);
+    
+    transform:scale(1.1)
 }
+
+h1{ 
+    font-family: 'Zilla Slab', serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(0, 195, 255);
+}
+
+.project-links {
+    text-align: center;
+   height: 70px;
+    width: 100%;
+    
+}
+
+.project-link {
+    display: inline-block;
+    width: 32%;
+    height: 100%;
+    position: relative;
+    
+    
+
+}
+
+.project-link:hover  {
+    
+    
+}
+.project-link:hover .link-name {
+    transition: transform 330ms ease-in-out;
+    transform: translateY(-10px);
+    
+}
+
+.project-link:hover .link-image {
+  
+    transition: transform 330ms ease-in-out;
+    transform: translateY(-10px);
+    
+}
+
+@keyframes floatBubble {
+    0% {
+        top:0px;
+    }
+    100% {
+        top:10px;
+    }
+}
+
+
+.link-image {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
+.link-name {
+    display: inline-block;
+    color: white;
+    font-family: 'Zilla Slab', serif;
+    font-size: 25px;
+    font-weight: 600;
+    vertical-align: top;
+}
+
+
