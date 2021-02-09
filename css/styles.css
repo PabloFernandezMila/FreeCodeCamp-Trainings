@@ -274,3 +274,7 @@ h1 {
     font-weight: 600;
     vertical-align: top;
 }
+
+a{
+    text-decoration: none;
+}
