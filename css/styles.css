@@ -135,15 +135,6 @@ p {
     margin-left: 25%;
 }
 
-#about {
-    display: inline-block;
-    margin-top: 0;
-    width: 50%;
-    text-align: center;
-    width: 50%;
-    margin-left: 200px;
-}
-
 .tomato {
     color: tomato;
     background: none;
@@ -174,6 +165,8 @@ p {
     margin-left: 3.7%;
     margin-top: 0;
     padding-top: 20px;
+    border-bottom: 1px solid white;
+    margin-right: 3.7%;
 }
 
 #projects-section {
@@ -193,7 +186,7 @@ p {
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 195, 255, 0.2);
     padding: 16px;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(30, 30, 30);
     height: 600px;
     width: 800px;
     margin: 20px;
@@ -239,8 +232,6 @@ h1 {
     position: relative;
 }
 
-.project-link:hover {}
-
 .project-link:hover .link-name {
     transition: transform 330ms ease-in-out;
     transform: translateY(-10px);
@@ -275,6 +266,102 @@ h1 {
     vertical-align: top;
 }
 
-a{
+a {
     text-decoration: none;
+}
+
+#about-container {
+    padding-top: 5%;
+    width: 80%;
+    margin: auto;
+    display: table-cell;
+}
+
+#about {
+    margin-top: 10%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 10%;
+}
+
+#avatar-text {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+#avatar {
+    width: 40%;
+    border-radius: 50%;
+    border: 5px solid rgb(0, 195, 255);
+}
+
+#about-contact-form {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+form {
+    display: block;
+    text-align: left;
+}
+
+label {
+    margin-left: 1%;
+    text-align: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-family: 'Zilla Slab', serif;
+    font-size: 20px;
+}
+
+input {
+    margin-left: 1%;
+    text-align: left;
+    display: block;
+    color: rgb(0, 195, 255);
+    font-family: 'Zilla Slab', serif;
+    font-size: 20px;
+    border-style: none;
+    background-color: rgb(12, 12, 12);
+    border-bottom: 1px solid rgb(0, 195, 255);
+    width: 90%;
+}
+
+#message {
+    width: 90%;
+    height: 250px;
+}
+
+label,
+input,
+button {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 20px;
+}
+
+
+/* Added to remove focus box on Chrome*/
+
+*,
+*:focus,
+*:hover {
+    outline: none;
+}
+
+#contact-form {
+    width: 50%;
+    margin: auto;
+    background-color: rgb(30, 30, 30);
+    border: 1px solid rgb(0, 195, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 195, 255, 0.2)
+}
+
+#form-header {
+    height: 50px;
+    background: rgb(93, 112, 111);
+    background: linear-gradient(356deg, rgba(93, 112, 111, 1) 0%, rgba(0, 195, 255, 1) 87%);
 }
