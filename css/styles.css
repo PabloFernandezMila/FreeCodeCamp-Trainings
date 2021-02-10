@@ -9,6 +9,8 @@ main {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    scroll-padding-top: 60px;
+    /* height of sticky header */
 }
 
 header {
@@ -303,44 +305,69 @@ a {
     margin-bottom: 20px;
 }
 
+#contact-form {
+    width: 60%;
+    margin: 2% auto;
+}
+
 form {
+    margin-top: 2%;
     display: block;
     text-align: left;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 195, 255, 0.2);
+    border-radius: 15px;
 }
 
 label {
-    margin-left: 1%;
-    text-align: left;
-    display: block;
-    color: rgb(255, 255, 255);
-    font-family: 'Zilla Slab', serif;
-    font-size: 20px;
-}
-
-input {
-    margin-left: 1%;
     text-align: left;
     display: block;
     color: rgb(0, 195, 255);
     font-family: 'Zilla Slab', serif;
     font-size: 20px;
+    font-weight: 600;
+}
+
+#name-label {
+    padding-top: 5%;
+}
+
+input[type="text"],
+input[type="email"] {
+    text-align: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    font-family: 'Zilla Slab', serif;
+    font-size: 20px;
     border-style: none;
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(0, 0, 0, 0);
     border-bottom: 1px solid rgb(0, 195, 255);
-    width: 90%;
+}
+
+#message-label {
+    padding-bottom: 1%;
 }
 
 #message {
-    width: 90%;
+    width: 89%;
+    max-width: 90%;
+    display: block;
     height: 250px;
+    padding-left: 1%;
+    border-color: rgb(0, 195, 255);
+    border-block-color: rgb(0, 195, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Zilla Slab', serif;
+    font-size: 20px;
 }
 
 label,
-input,
-button {
+input[type="text"],
+input[type="email"],
+textarea {
+    margin: auto;
+    width: 90%;
     margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 20px;
 }
 
 
@@ -352,16 +379,67 @@ button {
     outline: none;
 }
 
-#contact-form {
-    width: 50%;
+#form-header {
     margin: auto;
-    background-color: rgb(30, 30, 30);
-    border: 1px solid rgb(0, 195, 255);
-    box-shadow: 0 4px 8px 0 rgba(0, 195, 255, 0.2)
+    height: 50px;
+    background: rgb(0, 195, 255);
+    background: linear-gradient(356deg, rgba(0, 195, 255, 1) 0%, rgba(50, 167, 156, 1) 90%);
+    width: 100%;
+    border-radius: 15px;
 }
 
-#form-header {
+#header-text {
+    color: white;
+    font-family: 'Zilla Slab', serif;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#submit-container {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#submit {
+    border-radius: 15px;
+    background: rgb(0, 195, 255);
+    background: linear-gradient(356deg, rgba(0, 195, 255, 1) 0%, rgba(50, 167, 156, 1) 90%);
+    box-shadow: 0 4px 8px 0 rgba(0, 195, 255, 0.2);
+    color: white;
+    font-family: 'Zilla Slab', serif;
+    font-size: 25px;
+    font-weight: 600;
+    border-style: none;
+    width: 15%;
+}
+
+#submit:hover {
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: rgb(0, 195, 255);
+    padding-top: 0px;
+    margin-top: 0px;
+    z-index: 1;
     height: 50px;
-    background: rgb(93, 112, 111);
-    background: linear-gradient(356deg, rgba(93, 112, 111, 1) 0%, rgba(0, 195, 255, 1) 87%);
+    margin: 0;
+    padding: 0;
+}
+
+#footer-text {
+    position: absolute;
+    right: 0px;
+    margin-right: 10px;
+    color: white;
+    font-family: 'Zilla Slab', serif;
+    font-size: 14px;
 }
