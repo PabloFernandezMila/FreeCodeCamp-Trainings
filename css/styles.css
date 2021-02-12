@@ -244,14 +244,7 @@ h1 {
     transform: translateY(-10px);
 }
 
-@keyframes floatBubble {
-    0% {
-        top: 0px;
-    }
-    100% {
-        top: 10px;
-    }
-}
+
 
 .link-image {
     display: inline-block;
